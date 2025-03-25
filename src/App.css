@@ -1,0 +1,34 @@
+.navbar{
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
+
+.main-titles{
+  font-family: "Oswald", system-ui;
+  position: absolute;
+}
+.main-titles h1 {
+  font-weight: 700;
+  color: white;
+  letter-spacing: 5px;
+}
+.main-titles p{
+  color: white;
+}
+.copyright{
+  background-color: rgb(37, 36, 36);
+}
+
+.rotate-image {
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
